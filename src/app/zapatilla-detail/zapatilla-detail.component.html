@@ -1,0 +1,15 @@
+<div class="container mt-5">
+    <div class="card mb-3">
+        <img src='{{zapatilla.urlImagen}}' class="card-img-top w-50 mx-auto" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">{{zapatilla.nombre}}</h5>
+           <p class="card-text">{{zapatilla.descripcion}}</p>
+
+        </div>
+        <div class="card-footer">
+            <small class="text-muted">{{zapatilla.precio}} <span class="d-flex justify-content-end"><div class="p-2 bd-highlight"><a class="btn btn-primary" (click)="goEdit()">Editar</a></div><div class="p-2 bd-highlight"><a class="btn btn-primary" (click)="deleteZapatilla()">Eliminar</a></div></span></small>
+    </div>
+    </div>
+
+  
+ </div>

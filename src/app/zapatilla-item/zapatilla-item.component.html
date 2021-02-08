@@ -1,0 +1,12 @@
+
+    <div class="card h-100">
+     <a [routerLink]="['/zapatillas',zapatilla.id]"><img src="{{zapatilla.urlImagen}}"  class="card-img-top" alt=""></a>
+      <div class="card-body">
+           <h5 class="card-title">{{zapatilla.nombre}}</h5>
+           <p class="card-text">{{zapatilla.descripcion}}</p>
+       </div>
+       <div class="card-footer">
+           <small class="text-muted">{{zapatilla.precio}}</small>          
+       </div>
+    </div>
+   
